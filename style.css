@@ -218,7 +218,7 @@ span {
 }
 
 .text-animation span::before {
-    content: "web Developer";
+    content: "";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -244,22 +244,7 @@ span {
 
     0%,
     20% {
-        content: "Frontend Designer";
-    }
-
-    21%,
-    40% {
-        content: "web Designer";
-    }
-
-    41%,
-    60% {
-        content: "UI / UX Designer"
-    }
-
-    61%,
-    80% {
-        content: "web Developer";
+        content: "Desenvolvedor Front-end";
     }
 
     81%,
