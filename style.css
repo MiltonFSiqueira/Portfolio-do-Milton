@@ -244,12 +244,12 @@ span {
 
     0%,
     20% {
-        content: "Desenvolvedor Front-end";
+        
     }
 
     81%,
     100% {
-        content: "";
+        content: "Desenvolvedor Front-end";
     }
 }
 
