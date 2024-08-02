@@ -346,7 +346,43 @@ span {
     margin: 6px 0 15px;
 }
 
-.timeline-content {
+.timeline-content1 {
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px var(--main-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-image: url("img/Html-2.png");
+   
+}
+
+.timeline-content2 {
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px var(--main-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-image: url("img/Html-2.png");
+   
+}
+
+.timeline-content3 {
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px var(--main-color);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-image: url("img/Html-2.png");
+   
+}
+
+.timeline-content4 {
     background-color: var(--bg-color);
     border: 3px solid var(--main-color);
     padding: 30px 50px;
