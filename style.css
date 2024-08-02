@@ -98,6 +98,10 @@ section {
     margin-top: 3rem;
 }
 
+.Apresentacao{
+    font-size: 8rem;
+}
+
 span {
     color: var(--main-color);
 }
@@ -653,7 +657,6 @@ span {
     .home-content p{
         max-width: 600px;
         margin: 0 auto;
-        font-size: 8rem;
     }
 
     .home-img img{
