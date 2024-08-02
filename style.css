@@ -140,7 +140,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
@@ -236,7 +236,7 @@ span {
 
 @keyframes cursor {
     to {
-        border-left: 2px solid var(--main-color);
+        border-left: 1px solid var(--main-color);
     }
 }
 
@@ -653,7 +653,7 @@ span {
     .home-content p{
         max-width: 600px;
         margin: 0 auto;
-        font-size: 25px;
+        font-size: 8rem;
     }
 
     .home-img img{
