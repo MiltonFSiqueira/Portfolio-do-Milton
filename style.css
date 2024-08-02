@@ -311,7 +311,7 @@ span {
     margin-bottom: 40px;
     width: 100%;
     position: relative;
-    background-image: url("img/Html-2.png");
+    
 }
 
 .timeline-item:last-child {
@@ -354,6 +354,7 @@ span {
     box-shadow: 0 0 10px var(--main-color);
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    background-image: url("img/Html-2.png");
    
 }
 
