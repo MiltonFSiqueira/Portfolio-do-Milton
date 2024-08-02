@@ -224,7 +224,7 @@ span {
 }
 
 .text-animation span::after {
-    content: "Desenvolvedor Front-end";
+    content: "Desenvolvedor";
     background-color: var(--bg-color);
     position: absolute;
     width: calc(100% + 8px);
