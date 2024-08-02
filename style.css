@@ -390,7 +390,7 @@ span {
     box-shadow: 0 0 10px var(--main-color);
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    background-image: url("img/878400_20220713125048.jpg");
+    background-image: url("");
    
 }
 
@@ -482,6 +482,7 @@ span {
     justify-content: left;
     align-items: baseline;
     padding: 5rem 5rem;
+    background-image: url("img/imagedany.png");
 }
 
 .projeto-info h4 {
