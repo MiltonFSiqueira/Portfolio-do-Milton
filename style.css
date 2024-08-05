@@ -220,7 +220,7 @@ span {
 .text-animation span::before {
     content: "";
     color: var(--main-color);
-    animation: words 5s infinite;
+    animation: words 2s infinite;
 }
 
 .text-animation span::after {
@@ -399,7 +399,8 @@ span {
     transition: 0.3s ease-in-out;
     background-image: url("img/GitHub.png");
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 70%;
+    background-position: left;
    
 }
 
