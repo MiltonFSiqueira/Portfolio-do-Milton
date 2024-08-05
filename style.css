@@ -471,14 +471,14 @@ span {
     background-size: 100%;
 }
 
-.projeto-box1:hover {
+.projeto-box1.projeto-box2 .projeto-box3 .projeto-box4:hover {
     background: white;
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
 
-.projeto-box1 .projeto-info1 {
+.projeto-box1 .projeto-box2 .projeto-box3 .projeto-box4 .projeto-info1 .projeto-info2 .projeto-info3 .projeto-info4 {
     display: flex;
     flex-direction: column;
     text-align: left;
