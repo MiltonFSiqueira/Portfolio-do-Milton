@@ -458,7 +458,7 @@ span {
     gap: 2.5rem;
 }
 
-.projeto-box1 .projeto-box2 .projeto-box3 .projeto-box4 {
+.projetos-container .projeto-box1 .projeto-box2 .projeto-box3 .projeto-box4 {
     background-color: var(--main-color);
     height: 300px;
     border-radius: 3rem;
