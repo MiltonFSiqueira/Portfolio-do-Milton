@@ -399,8 +399,8 @@ span {
     transition: 0.3s ease-in-out;
     background-image: url("img/GitHub.png");
     background-repeat: no-repeat;
-    background-size: 70%;
-    background-position: left;
+    background-size: 60%;
+    background-position: right;
    
 }
 
