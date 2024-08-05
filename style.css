@@ -218,13 +218,13 @@ span {
 }
 
 .text-animation span::before {
-    content: "Desenvolvedor Front-end";
+    content: "";
     color: var(--main-color);
     animation: words 20s infinite;
 }
 
 .text-animation span::after {
-    content: "Front-end";
+    content: "";
     background-color: var(--bg-color);
     position: absolute;
     width: calc(100% + 8px);
