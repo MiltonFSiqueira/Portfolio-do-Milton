@@ -370,7 +370,7 @@ span {
     transition: 0.3s ease-in-out;
     background-image: url("img/CSS-2.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 50%;
    
 }
 
@@ -384,7 +384,7 @@ span {
     transition: 0.3s ease-in-out;
     background-image: url("img/logotipo-do-javascript-136765881.webp");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 50%;
    
 }
 
