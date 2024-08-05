@@ -355,6 +355,8 @@ span {
     cursor: pointer;
     transition: 0.3s ease-in-out;
     background-image: url("img/Html-2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
    
 }
 
