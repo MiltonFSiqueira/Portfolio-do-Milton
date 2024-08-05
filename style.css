@@ -458,7 +458,7 @@ span {
     gap: 2.5rem;
 }
 
-.projetos-container .projeto-box1 .projeto-box2 .projeto-box3 .projeto-box4 {
+.projetos-container .projeto-box1 {
     background-color: var(--main-color);
     height: 300px;
     border-radius: 3rem;
@@ -471,14 +471,14 @@ span {
     background-size: 100%;
 }
 
-.projeto-box1:hover {
+.projeto-box1 :hover {
     background: white;
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
 
-.projeto-box2:hover {
+.projeto-box2 :hover {
     background: white;
     color: black;
     border: 5px solid var(--main-color);
