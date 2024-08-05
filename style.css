@@ -179,7 +179,7 @@ span {
     border: 2px solid transparent;
     letter-spacing: 0.1rem;
     font-weight: 600;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
     cursor: pointer;
 }
 
@@ -220,11 +220,11 @@ span {
 .text-animation span::before {
     content: "";
     color: var(--main-color);
-    animation: words 2s infinite;
+    animation: words 0s infinite;
 }
 
 .text-animation span::after {
-    content: "";
+    content: "Back-end";
     background-color: var(--bg-color);
     position: absolute;
     width: calc(100% + 8px);
