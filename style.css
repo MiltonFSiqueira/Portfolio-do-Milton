@@ -471,7 +471,7 @@ span {
     background-size: 100%;
 }
 
-.projeto-box1.projeto-box2 .projeto-box3 .projeto-box4:hover {
+.projeto-box1 .projeto-box2 .projeto-box3 .projeto-box4:hover {
     background: white;
     color: black;
     border: 5px solid var(--main-color);
