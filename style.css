@@ -471,14 +471,14 @@ span {
     background-size: 100%;
 }
 
-.projeto-box:hover {
+.projeto-box1:hover {
     background: white;
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
 
-.projeto-box .projeto-info {
+.projeto-box1 .projeto-info {
     display: flex;
     flex-direction: column;
     text-align: left;
