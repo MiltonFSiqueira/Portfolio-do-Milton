@@ -480,15 +480,15 @@ content: "Desenvolvedor Front-end";
     cursor: pointer;
     transition: 0.4s ease-in-out;
   
-}
-
+} 
+ /*
 .projeto-box :hover {
     background: white;
     color: black;
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
-
+ 
 
 .projeto-box {
     display: flex;
@@ -499,6 +499,7 @@ content: "Desenvolvedor Front-end";
     align-items: baseline;
     padding: 5rem 5rem;
 }
+*/
 
 .projeto-info h4 {
     font-size: 3rem;
@@ -528,6 +529,11 @@ content: "Desenvolvedor Front-end";
     background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade */
     padding: 20px;
     transition: background-color 0.3s ease;
+  }
+
+  
+  .projeto-box:hover .projeto-info {
+    background-color: rgba(0, 0, 0, 0.9); /* Fundo mais escuro ao passar o mouse */
   }
 
 .contact {
