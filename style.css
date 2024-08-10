@@ -466,10 +466,7 @@ content: "Desenvolvedor Front-end";
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
-    background-image: url("img/imagedany.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    
 }
 
 .projetos-container .projeto-box {
