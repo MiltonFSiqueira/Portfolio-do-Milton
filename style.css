@@ -817,6 +817,7 @@ content: "Desenvolvedor Front-end";
     */ 
 
    /* Estilos para tablets e dispositivos menores */
+   
 @media (max-width: 1024px) {
     html {
         font-size: 55%;
