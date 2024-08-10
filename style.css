@@ -243,7 +243,7 @@ content: "";
 @keyframes words {
 
     81%{
-        content: "Desenvolvedor Front-end";
+        content: "";
     }
 }
 
