@@ -481,7 +481,7 @@ content: "Desenvolvedor Front-end";
     transition: 0.4s ease-in-out;
   
 } 
- /*
+ 
 .projeto-box :hover {
     background: white;
     color: black;
@@ -499,7 +499,7 @@ content: "Desenvolvedor Front-end";
     align-items: baseline;
     padding: 5rem 5rem;
 }
-*/
+
 
 .projeto-info h4 {
     font-size: 3rem;
@@ -531,10 +531,6 @@ content: "Desenvolvedor Front-end";
     transition: background-color 0.3s ease;
   }
 
-  
-  .projeto-box:hover .projeto-info {
-    background-color: rgba(0, 0, 0, 0.9); /* Fundo mais escuro ao passar o mouse */
-  }
 
 .contact {
     background-color: var(--bg-color);
