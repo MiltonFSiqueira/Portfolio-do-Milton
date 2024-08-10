@@ -47,3 +47,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const elements = document.querySelectorAll('h1, h2, h3, h4, p');
     elements.forEach(animateText);
 });
+
+const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+
+// Fechar o menu ao clicar em um link
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.addEventListener('click', () => {
+        menuIcon.classList.remove('bx-x');
+        navbar.classList.remove('active');
+    });
+});
