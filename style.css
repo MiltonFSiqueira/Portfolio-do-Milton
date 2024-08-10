@@ -451,6 +451,7 @@ content: "Desenvolvedor Front-end";
     width: 50px;
 }
 
+/*
 .projetos {
     background: var(--bg-color);
     color: black;
@@ -523,11 +524,74 @@ content: "Desenvolvedor Front-end";
   .projeto-info {
     position: relative;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade 
     padding: 20px;
     transition: background-color 0.3s ease;
   }
+  
+  */
 
+  .projetos {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.projetos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+.projeto-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    overflow: hidden;
+    display: flex;
+    height: 300px;
+}
+
+.projeto-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+}
+
+.projeto-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.projeto-info {
+    padding: 2rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.projeto-box:hover .projeto-info {
+    transform: translateY(0);
+}
+
+.projeto-info h4 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projeto-info p {
+    font-size: 1.6rem;
+}
 
 .contact {
     background-color: var(--bg-color);
@@ -635,6 +699,7 @@ content: "Desenvolvedor Front-end";
     font-size: 16px;
     color: white;
 }
+ /*
 
 @media(max-width:1285px) {
     html {
@@ -749,3 +814,122 @@ content: "Desenvolvedor Front-end";
         grid-template-columns: repeat(1,1fr);
     }
 }
+    */ 
+
+   /* Estilos para tablets e dispositivos menores */
+@media (max-width: 1024px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-content {
+        align-items: center;
+    }
+
+    .home-img img {
+        width: 70%;
+        margin-top: 4rem;
+    }
+
+    .projetos-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Estilos para dispositivos móveis maiores */
+@media (max-width: 768px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .home {
+        gap: 5rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 80%;
+    }
+
+    .projetos-container {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-items::before {
+        left: 7px;
+    }
+
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+
+    .timeline-dot {
+        left: 0;
+    }
+}
+
+/* Estilos para dispositivos móveis menores */
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-img img {
+        width: 90%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+/* Estilos para dispositivos muito pequenos */
+@media (max-width: 365px) {
+    .home-img img {
+        width: 95%;
+    }
+
+    .about-img img {
+        width: 90vw;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+} 

@@ -25,3 +25,23 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+function animateText(element) {
+    const text = element.textContent;
+    element.textContent = '';
+    for (let i = 0; i < text.length; i++) {
+        const span = document.createElement('span');
+        span.textContent = text[i];
+        span.style.opacity = '0';
+        span.style.transition = `opacity 0.5s ease ${i * 0.05}s`;
+        element.appendChild(span);
+        setTimeout(() => {
+            span.style.opacity = '1';
+        }, 50);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const elements = document.querySelectorAll('h1, h2, h3, h4, p');
+    elements.forEach(animateText);
+});
