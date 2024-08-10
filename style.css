@@ -218,7 +218,7 @@ span {
 }
 
 .text-animation span::before {
-    content: "Desenvolvedor Front-end";
+content: "Desenvolvedor Front-end";
     color: var(--main-color);
     animation: words 0s infinite;
 }
@@ -466,6 +466,10 @@ span {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
+    background-image: url("img/imagedany.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .projetos-container .projeto-box {
@@ -475,10 +479,7 @@ span {
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
-    background-image: url("img/imagedany.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+  
 }
 
 .projeto-box :hover {
