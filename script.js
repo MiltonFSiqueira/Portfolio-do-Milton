@@ -1,4 +1,4 @@
- /*
+ 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 let section = document.querySelectorAll('section');
@@ -26,7 +26,7 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
-*/
+
 
 function animateText(element) {
     const text = element.textContent;
