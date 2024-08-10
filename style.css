@@ -549,6 +549,7 @@ content: "";
     overflow: hidden;
     display: flex;
     height: 300px;
+    background-image: url('img/imagedany.png');
 }
 
 .projeto-box::before {
