@@ -600,7 +600,7 @@ span {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2.5rem;
-    padding-top: 5px;
+    padding-bottom: 10px;
   }
   
   .projeto-box {
