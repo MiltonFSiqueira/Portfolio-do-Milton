@@ -612,6 +612,7 @@ span {
     background-size: cover;
     background-position: center;
     background-image: url("img/imagedany.png");
+    background-repeat: no-repeat;
   }
   
   .projeto-box::before {
