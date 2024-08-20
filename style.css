@@ -479,8 +479,11 @@ span {
 
     .home-img img {
         width: 70vw;
-        margin-top: 4rem;
-        padding-right: 30px;
+        margin-top: 4rem;  
+    }
+
+    .home-img{
+        padding-left: 30px;
     }
 
     .about {
