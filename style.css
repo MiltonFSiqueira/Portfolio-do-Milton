@@ -168,7 +168,7 @@ span {
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 50%;
-    padding-right: 30px;
+    
 }
 
 @keyframes floatImage {
@@ -480,6 +480,7 @@ span {
     .home-img img {
         width: 70vw;
         margin-top: 4rem;
+        padding-right: 30px;
     }
 
     .about {
