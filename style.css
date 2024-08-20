@@ -482,10 +482,6 @@ span {
         margin-top: 4rem;  
     }
 
-    .home-img{
-        padding-left: 30px;
-    }
-
     .about {
         flex-direction: column-reverse;
     }
