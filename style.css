@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -406,7 +407,94 @@ span {
     color: var(--second-bg-color);
 }
 
-/* BREAKPOINTS */
+/* Estilos para a seção de tecnologias */
+.tecnologias {
+    padding: 100px 0;
+  }
+  
+  .tecnologias-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .tecnologia-card {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .tecnologia-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tecnologia-card i {
+    font-size: 4rem;
+    color: var(--main-color);
+  }
+  
+  .tecnologia-card h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Estilos atualizados para a seção de projetos */
+  .projetos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .projeto-box {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .projeto-info {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1.5rem;
+    width: 100%;
+    transition: transform 0.3s ease;
+    transform: translateY(100%);
+  }
+  
+  .projeto-box:hover .projeto-info {
+    transform: translateY(0);
+  }
+  
+  .projeto-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--main-color);
+  }
+  
+  .projeto-info p {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  /* Estilo para o botão de download do currículo */
+  .btn-group {
+    display: flex;
+    gap: 1rem;
+  }
+
+
+
+
+
+
+/* BREAKPOINT
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -540,7 +628,7 @@ span {
     }
 }
 
-/* Adicionando estilos para o botão do WhatsApp */
+/* Adicionando estilos para o botão do WhatsApp 
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
@@ -569,7 +657,7 @@ span {
     margin-top: 3px;
 }
 
-/* Estilos para a animação de digitação */
+/* Estilos para a animação de digitação 
 .typing-animation {
     overflow: hidden;
     border-right: .15em solid var(--main-color);
@@ -591,9 +679,9 @@ span {
     50% { border-color: var(--main-color); }
 }
 
-/* ... (estilos anteriores) ... */
+/* ... (estilos anteriores) ... 
 
-/* Estilos para a seção de projetos */
+/* Estilos para a seção de projetos 
 .projetos {
     background: var(--bg-color);
     color: var(--text-color);
@@ -663,7 +751,7 @@ span {
     font-size: 1.6rem;
   }
   
-  /* Estilos para o botão do WhatsApp */
+  /* Estilos para o botão do WhatsApp 
   .whatsapp-link {
     text-align: center;
     margin-top: 2rem;
@@ -689,7 +777,7 @@ span {
     margin-right: 1rem;
   }
   
-  /* Media Queries */
+  /* Media Queries 
   @media (max-width: 768px) {
     .header {
       padding: 2rem 3%;

@@ -55,6 +55,38 @@ document.querySelectorAll('.navbar a').forEach(link => {
 });
 
 
+// Função para animar entrada dos cards de tecnologia
+function animateTechCards() {
+  const cards = document.querySelectorAll('.tecnologia-card');
+  cards.forEach((card, index) => {
+    setTimeout(() => {
+      card.style.opacity = '1';
+      card.style.transform = 'translateY(0)';
+    }, index * 100);
+  });
+}
+
+// Chamar a função quando a página carregar
+window.addEventListener('load', animateTechCards);
+
+// Adicionar classe 'active' ao link da navbar quando a seção correspondente estiver visível
+function updateActiveNavLink() {
+  const sections = document.querySelectorAll('section');
+  const navLinks = document.querySelectorAll('.navbar a');
+
+  sections.forEach((section, index) => {
+    const rect = section.getBoundingClientRect();
+    if (rect.top <= 100 && rect.bottom >= 100) {
+      navLinks.forEach(link => link.classList.remove('active'));
+      navLinks[index].classList.add('active');
+    }
+  });
+}
+
+// Chamar a função quando a página rolar
+window.addEventListener('scroll', updateActiveNavLink);
+
+
 
 
 
